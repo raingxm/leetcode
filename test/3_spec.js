@@ -20,13 +20,13 @@ describe("Longest Substring Without Repeating Characters", function() {
 		assert.equal(lengthOfLongestSubstring(input), expect);
 	});
 
-	it('pass case', function() {
+	it('passed case', function() {
 		var input = "bbtablud";
 		var expect = 6;
 		assert.equal(lengthOfLongestSubstring(input), expect);
 	});
 
-	it('failed case', function() {
+	it('passed case', function() {
 		var input = "aab";
 		var expect = 2;
 		assert.equal(lengthOfLongestSubstring(input), expect);
