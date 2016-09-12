@@ -1,0 +1,23 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "## 3. Longest Substring Without Repeating Characters",
+  "main": "3.js",
+  "scripts": {
+    "test": "mocha test/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raingxm/leetcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raingxm/leetcode/issues"
+  },
+  "homepage": "https://github.com/raingxm/leetcode#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
