@@ -39,31 +39,5 @@ var removeNthFromEnd = function(head, n) {
   return newHead;
 };
 
-function buildList(len) {
-  let head;
-  let previous;
-  for (let i = 0; i < len; i++) {
-    let current = {
-      val: i + 1,
-      next: null
-    };
-    if (i === 0) {
-      head = current;
-    } else {
-      previous.next = current;
-    }
-    previous = current;
-  }
-  return head;
-}
-
-function printList(head) {
-  let current = head;
-  while(current) {
-    console.log(current.val);
-    current = current.next;
-  }
-}
-
 // printList(removeNthFromEnd(buildList(3), 3));
 // printList(removeNthFromEnd(buildList(1), 1));
